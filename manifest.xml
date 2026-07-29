@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application entry="ChistanaApp" id="f0a025e1-2b6b-4d3d-a657-71a1d661ee52" minSdkVersion="4.2.1" name="@Strings.AppName" type="watchface" version="1.0.0" launcherIcon="@Drawables.launcher_icon">
+        <iq:products>
+            <iq:product id="fr970"/>
+        </iq:products>
+        <iq:languages>
+            <iq:language>en</iq:language>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:permissions>
+            <iq:uses-permission id="ComplicationSubscriber"/>
+        </iq:permissions>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Garmin build output
+bin/

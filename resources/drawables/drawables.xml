@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <bitmap id="launcher_icon" filename="launcher_icon.png"/>
+
+    <!-- Time digits (shared glyph set, styling baked into the art) -->
+    <bitmap id="digit_0" filename="digit_0.png"/>
+    <bitmap id="digit_1" filename="digit_1.png"/>
+    <bitmap id="digit_2" filename="digit_2.png"/>
+    <bitmap id="digit_3" filename="digit_3.png"/>
+    <bitmap id="digit_4" filename="digit_4.png"/>
+    <bitmap id="digit_5" filename="digit_5.png"/>
+    <bitmap id="digit_6" filename="digit_6.png"/>
+    <bitmap id="digit_7" filename="digit_7.png"/>
+    <bitmap id="digit_8" filename="digit_8.png"/>
+    <bitmap id="digit_9" filename="digit_9.png"/>
+    <bitmap id="colon" filename="colon.png"/>
+
+    <!-- Stat/decoration icons -->
+    <bitmap id="icon_star" filename="icon_star.png"/>
+    <bitmap id="icon_heart" filename="icon_heart.png"/>
+    <bitmap id="icon_steps" filename="icon_steps.png"/>
+    <bitmap id="icon_run" filename="icon_run.png"/>
+    <bitmap id="icon_seconds" filename="icon_seconds.png"/>
+
+    <!-- Weather condition icons -->
+    <bitmap id="weather_sunny" filename="weather_sunny.png"/>
+    <bitmap id="weather_partly_cloudy" filename="weather_partly_cloudy.png"/>
+    <bitmap id="weather_cloudy" filename="weather_cloudy.png"/>
+    <bitmap id="weather_rain" filename="weather_rain.png"/>
+    <bitmap id="weather_snow" filename="weather_snow.png"/>
+    <bitmap id="weather_thunder" filename="weather_thunder.png"/>
+
+    <!-- Sky scene: sun/moon -->
+    <bitmap id="sun" filename="sun.png"/>
+    <bitmap id="moon_phase_0" filename="moon_phase_0.png"/>
+    <bitmap id="moon_phase_1" filename="moon_phase_1.png"/>
+    <bitmap id="moon_phase_2" filename="moon_phase_2.png"/>
+    <bitmap id="moon_phase_3" filename="moon_phase_3.png"/>
+    <bitmap id="moon_phase_4" filename="moon_phase_4.png"/>
+    <bitmap id="moon_phase_5" filename="moon_phase_5.png"/>
+    <bitmap id="moon_phase_6" filename="moon_phase_6.png"/>
+    <bitmap id="moon_phase_7" filename="moon_phase_7.png"/>
+    <bitmap id="stars" filename="stars.png"/>
+
+    <!-- Sky scene: clouds -->
+    <bitmap id="day_cloud_1" filename="day_cloud_1.png"/>
+    <bitmap id="day_cloud_2" filename="day_cloud_2.png"/>
+    <bitmap id="day_cloud_3" filename="day_cloud_3.png"/>
+    <bitmap id="day_cloud_4" filename="day_cloud_4.png"/>
+    <bitmap id="day_cloud_5" filename="day_cloud_5.png"/>
+    <bitmap id="night_cloud_1" filename="night_cloud_1.png"/>
+    <bitmap id="night_cloud_2" filename="night_cloud_2.png"/>
+    <bitmap id="night_cloud_3" filename="night_cloud_3.png"/>
+    <bitmap id="night_cloud_4" filename="night_cloud_4.png"/>
+    <bitmap id="night_cloud_5" filename="night_cloud_5.png"/>
+
+    <!-- Sky scene: skyline -->
+    <bitmap id="day_skyline" filename="day_skyline.png"/>
+    <bitmap id="night_skyline" filename="night_skyline.png"/>
+
+    <!-- Sky scene: precipitation (tiled + animated for RAIN/SNOW/THUNDER) -->
+    <bitmap id="rain_tile_1" filename="rain_tile_1.png"/>
+    <bitmap id="rain_tile_2" filename="rain_tile_2.png"/>
+    <bitmap id="rain_tile_3" filename="rain_tile_3.png"/>
+    <bitmap id="snow_tile_1" filename="snow_tile_1.png"/>
+    <bitmap id="snow_tile_2" filename="snow_tile_2.png"/>
+    <bitmap id="snow_tile_3" filename="snow_tile_3.png"/>
+
+    <!-- Ring name text: letters needed for "KADISHA" / "MUKHAMEDJANOVA" /
+         "ASTANA" / "CHICAGO" -->
+    <!-- automaticPalette="false": drawBitmap2 (used for the rotated arc-text
+         draw, see drawArcLetter) throws "Source must not use a color
+         palette" at runtime against the compiler's default auto-palettized
+         bitmap format, so these need to stay truecolor. -->
+    <bitmap id="letter_a" filename="letter_a.png" automaticPalette="false"/>
+    <bitmap id="letter_c" filename="letter_c.png" automaticPalette="false"/>
+    <bitmap id="letter_d" filename="letter_d.png" automaticPalette="false"/>
+    <bitmap id="letter_e" filename="letter_e.png" automaticPalette="false"/>
+    <bitmap id="letter_g" filename="letter_g.png" automaticPalette="false"/>
+    <bitmap id="letter_h" filename="letter_h.png" automaticPalette="false"/>
+    <bitmap id="letter_i" filename="letter_i.png" automaticPalette="false"/>
+    <bitmap id="letter_j" filename="letter_j.png" automaticPalette="false"/>
+    <bitmap id="letter_k" filename="letter_k.png" automaticPalette="false"/>
+    <bitmap id="letter_m" filename="letter_m.png" automaticPalette="false"/>
+    <bitmap id="letter_n" filename="letter_n.png" automaticPalette="false"/>
+    <bitmap id="letter_o" filename="letter_o.png" automaticPalette="false"/>
+    <bitmap id="letter_s" filename="letter_s.png" automaticPalette="false"/>
+    <bitmap id="letter_t" filename="letter_t.png" automaticPalette="false"/>
+    <bitmap id="letter_u" filename="letter_u.png" automaticPalette="false"/>
+    <bitmap id="letter_v" filename="letter_v.png" automaticPalette="false"/>
+</resources>
