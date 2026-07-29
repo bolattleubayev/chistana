@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Beta app id (Connect IQ Store beta distribution channel): f0a025e1-2b6b-4d3d-a657-71a1d661ee52 -->
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
-    <iq:application entry="ChistanaApp" id="f0a025e1-2b6b-4d3d-a657-71a1d661ee52" minSdkVersion="4.2.1" name="@Strings.AppName" type="watchface" version="1.0.0" launcherIcon="@Drawables.launcher_icon">
+    <iq:application entry="ChistanaApp" id="29a95349-31a5-495f-8fc0-bd0d208de911" minSdkVersion="4.2.1" name="@Strings.AppName" type="watchface" version="1.0.0" launcherIcon="@Drawables.launcher_icon">
         <iq:products>
+            <!-- All devices sharing fr970's 454x454 round AMOLED display
+                 (deviceFamily "round-454x454" per the SDK's device
+                 compiler.json) - assets/layout were tuned pixel-for-pixel
+                 against that exact resolution, so devices outside this
+                 family are deliberately excluded rather than stretched. -->
             <iq:product id="fr970"/>
+            <iq:product id="fr965"/>
+            <iq:product id="fr57047mm"/>
+            <iq:product id="venu3"/>
+            <iq:product id="venu445mm"/>
+            <iq:product id="epix2pro51mm"/>
+            <iq:product id="fenix847mm"/>
+            <iq:product id="fenix8pro47mm"/>
+            <iq:product id="d2mach2"/>
+            <iq:product id="d2mach2pro"/>
+            <iq:product id="descentmk351mm"/>
+            <iq:product id="approachs7047mm"/>
         </iq:products>
         <iq:languages>
             <iq:language>en</iq:language>
